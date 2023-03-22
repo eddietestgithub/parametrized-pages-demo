@@ -1,13 +1,14 @@
-# Welcome to Evidence! 👋
+# Heard you like parameters
 
 # Links
 
 ## Teams
-[Tor](teams/tor)
-
+* [Raptors](teams/tor)
+* [Bucks](teams/mil)
 
 ## Memes
 
 
-## Categories
-[abc page](cats/abc/page)
+## Car Catgories
+* [Sedan Page](sedan/page)
+* [Coupe Page](coupe/page)
