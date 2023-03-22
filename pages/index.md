@@ -1,2 +1,13 @@
 # Welcome to Evidence! 👋
-Build a polished business intelligence system using only SQL & Markdown.
+
+# Links
+
+## Teams
+[Tor](teams/tor)
+
+
+## Memes
+
+
+## Categories
+[abc page](cats/abc/page)
