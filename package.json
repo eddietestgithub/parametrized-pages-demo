@@ -5,6 +5,8 @@
     "build": "evidence build",
     "build:strict": "evidence build",
     "dev": "evidence dev --open /",
+    "clean-build": "rm -rf package-lock.json node_modules && npm install && npm run build",
+    "docker-build": "npm run clean-build && docker build -t parametrized-pages-demo-v14 .",
     "test": "evidence build"
   },
   "engines": {
