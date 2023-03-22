@@ -1,4 +1,4 @@
-# Analyzing Meme <Value data={memes.filter(d => d.id === $page.params.meme.replace(/\/+$/,""))} column=meme_description/>
+# Analyzing Meme <Value data={memes.filter(d => d.id === $page.params.meme)} column=meme_description/>
 
 ```memes
 select 'abc' as id, 'ABC MEME!' as meme_description, 1969 as origin_year

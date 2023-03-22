@@ -5,7 +5,9 @@
     "build": "evidence build",
     "build:strict": "evidence build",
     "dev": "evidence dev --open /",
-    "test": "evidence build"
+    "test": "evidence build",
+    "clean-build": "rm -rf package-lock.json node_modules && npm install && npm run build",
+    "docker-build": "npm run clean-build && docker build -t parametrized-pages-demo-v15 ."
   },
   "engines": {
     "npm": ">=7.0.0",
@@ -13,6 +15,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@evidence-dev/evidence": "14.0.0"
+    "@evidence-dev/evidence": "15.0.0"
   }
 }
