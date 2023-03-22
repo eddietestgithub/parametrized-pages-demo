@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "my-evidence-project@0.0.1",
+    "stage": "build",
+    "script": "evidence build",
+    "pkgname": "my-evidence-project",
+    "err": {
+      "name": "pnpm",
+      "message": "my-evidence-project@0.0.1 build: `evidence build`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: my-evidence-project@0.0.1 build: `evidence build`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/opt/homebrew/lib/node_modules/pnpm/dist/pnpm.cjs:94974:22)\n    at ChildProcess.emit (node:events:512:28)\n    at maybeClose (node:internal/child_process:1098:16)\n    at ChildProcess._handle.onexit (node:internal/child_process:304:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
