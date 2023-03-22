@@ -1,4 +1,4 @@
-# Detailed Analysis for <Value data={teams_stubbed.filter(d => d.team === $page.params.nba_teams.replace(/\/+$/,""))} column=team_long/>
+# Detailed Analysis for <Value data={teams_stubbed.filter(d => d.team === $page.params.nba_teams)} column=team_long/>
 
 
 ```teams_stubbed
